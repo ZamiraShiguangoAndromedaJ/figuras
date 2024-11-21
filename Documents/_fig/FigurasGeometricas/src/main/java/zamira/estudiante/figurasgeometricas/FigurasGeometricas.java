@@ -11,7 +11,12 @@ package zamira.estudiante.figurasgeometricas;
 public class FigurasGeometricas {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        System.out.println("Bienvenido");
+        
+        System.out.println("hola");
+        
+        
+        
+        
     }
+    
 }
