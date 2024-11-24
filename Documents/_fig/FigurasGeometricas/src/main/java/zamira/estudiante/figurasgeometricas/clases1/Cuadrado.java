@@ -11,6 +11,10 @@ package zamira.estudiante.figurasgeometricas.clases1;
 public class Cuadrado {
 
     public double longitudLadoCentimetro;
+    
+    public Cuadrado(){
+        
+    }
 
     public Cuadrado(double logitudLadoCentimetro) {
         this.longitudLadoCentimetro = logitudLadoCentimetro;

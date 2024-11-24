@@ -5,6 +5,8 @@
 package zamira.estudiante.figurasgeometricas;
 
 import zamira.estudiante.figurasgeometricas.clases1.Cuadrado;
+import zamira.estudiante.figurasgeometricas.clases2.TrianguloRectangulo;
+
 
 /**
  *
@@ -14,10 +16,10 @@ public class FigurasGeometricas {
 
     public static void main(String[] args) {
         
-        System.out.println("hola");
+        System.out.println("hola con la clase cuadrado jiji");
         
         Cuadrado objCuadrado = new Cuadrado(9);
-        objCuadrado.imprimir();
+        //objCuadrado.imprimir(); *si lo queremos mostrar los valores al usuario
         
         double area=objCuadrado.calcularAreaCuadrado();
         System.out.println("el area del Cuadrado es:"+area);
@@ -26,6 +28,20 @@ public class FigurasGeometricas {
         System.out.println("el perimetro Cuadrado es: "+perimetro);
         
         
+        
+        
+        System.out.println("Hola con la clase Triangulo Rectangulo jjeje");
+        
+        TrianguloRectangulo objTrianguloRectangulo = new TrianguloRectangulo(7,8);
+        
+        double area1=objTrianguloRectangulo.calcularAreaTrianguloRectangulo();
+        System.out.println("El area del Triangulo Rectangulo es: " + area1);
+        
+        //double hipotenunsa=objTrianguloRectangulo.
+        
+        
+        
+       
         
         
         
