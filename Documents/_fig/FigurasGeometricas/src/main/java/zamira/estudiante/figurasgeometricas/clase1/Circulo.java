@@ -9,6 +9,7 @@ package zamira.estudiante.figurasgeometricas.clase1;
  * @author anthony
  */
 public class Circulo {
+    
     public double radio;
     public Circulo (){
     
