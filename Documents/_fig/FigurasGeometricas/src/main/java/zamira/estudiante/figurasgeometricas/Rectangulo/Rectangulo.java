@@ -1,5 +1,5 @@
 
-package zamira.estudiante.figurasgeometricas.clase2;
+package zamira.estudiante.figurasgeometricas.Rectangulo;
 
 
 public class Rectangulo {

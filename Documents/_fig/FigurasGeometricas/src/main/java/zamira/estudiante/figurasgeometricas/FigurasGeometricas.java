@@ -4,8 +4,8 @@
 
 package zamira.estudiante.figurasgeometricas;
 
-import zamira.estudiante.figurasgeometricas.clase1.Circulo;
-import zamira.estudiante.figurasgeometricas.clase2.Rectangulo;
+import zamira.estudiante.figurasgeometricas.Circulo.Circulo;
+import zamira.estudiante.figurasgeometricas.Rectangulo.Rectangulo;
 
 
 
