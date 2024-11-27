@@ -5,11 +5,11 @@
 package zamira.estudiante.figurasgeometricas;
 
 
-import zamira.estudiante.figurasgeometricas.clases1.Cuadrado;
-import zamira.estudiante.figurasgeometricas.clases2.TrianguloRectangulo;
+import zamira.estudiante.figurasgeometricas.Cuadrado.Cuadrado;
+import zamira.estudiante.figurasgeometricas.TrianguloRectangulo.TrianguloRectangulo;
 
-import zamira.estudiante.figurasgeometricas.clase1.Circulo;
-import zamira.estudiante.figurasgeometricas.clase2.Rectangulo;
+import zamira.estudiante.figurasgeometricas.Circulo.Circulo;
+import zamira.estudiante.figurasgeometricas.Rectangulo.Rectangulo;
 
 
 
