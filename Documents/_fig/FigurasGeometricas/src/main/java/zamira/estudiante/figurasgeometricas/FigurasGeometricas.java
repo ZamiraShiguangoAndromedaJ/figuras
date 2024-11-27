@@ -4,8 +4,14 @@
 
 package zamira.estudiante.figurasgeometricas;
 
+
 import zamira.estudiante.figurasgeometricas.clases1.Cuadrado;
 import zamira.estudiante.figurasgeometricas.clases2.TrianguloRectangulo;
+
+import zamira.estudiante.figurasgeometricas.clase1.Circulo;
+import zamira.estudiante.figurasgeometricas.clase2.Rectangulo;
+
+
 
 
 /**
@@ -13,9 +19,10 @@ import zamira.estudiante.figurasgeometricas.clases2.TrianguloRectangulo;
  * @author user
  */
 public class FigurasGeometricas {
+    
 
     public static void main(String[] args) {
-        
+
         System.out.println("hola con la clase cuadrado jiji");
         
         Cuadrado objCuadrado = new Cuadrado(9);
@@ -50,9 +57,24 @@ public class FigurasGeometricas {
         
         
          
+        Circulo objCirculo = new Circulo (3.4);
+        
+        double Area = objCirculo.calcularAreaCirculo();
+        System.out.println("El area del Circulo es :" + Area);
+        
+        double Perimetro = objCirculo.calcularPerimetroCirculo();
+        System.out.println("El perimetro del Circulo es :" + Perimetro);
         
         
+        Rectangulo objRectangulo = new Rectangulo (5,2);
+        double area2 = objRectangulo.calcularArea();
+        System.out.println("El area del rectangulo es " + area2);
         
+        double perimetro2 = objRectangulo.calcularPerimetro();
+        System.out.println("El perimetro del Circulo es :" + perimetro2);
+      
+    
+
     }
     
 }
