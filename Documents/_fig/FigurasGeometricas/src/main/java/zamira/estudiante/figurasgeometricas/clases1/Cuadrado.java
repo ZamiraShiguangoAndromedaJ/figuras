@@ -21,11 +21,6 @@ public class Cuadrado {
 
     }
 
-    public void imprimir() {
-        System.out.println("longitudLadoCentimetro: " + longitudLadoCentimetro);
-
-    }
-
     public double calcularAreaCuadrado() {
         
         return longitudLadoCentimetro*longitudLadoCentimetro;
